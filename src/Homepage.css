@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Inter';
+    font-weight: normal;
+    --b: #222831;
+    --g: #393E46;
+    --t: #00ADB5;
+    --w: #EEEEEE;
+}
+
+/* CHART */
+.chart{
+    background-color: var(--g);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    left: 2vw;
+    align-self: first baseline;
+    
+    color: var(--t);
+    text-shadow: 0px 0px 2px var(--t);
+}
+.graph{
+    background-color: white;
+    padding: 2vw; padding-top: 3vw; padding-right: 2vw;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.chart h1{
+    position: relative
+}
+
+
+/* Button */
+.button-38 {
+  background-color: var(--t);
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-38:hover {
+  background-color: var(--t)
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
